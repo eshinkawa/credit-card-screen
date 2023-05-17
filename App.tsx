@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-import { TextInput, Button, HelperText } from 'react-native-paper';
-import { TextInputMask } from 'react-native-masked-text';
+import { View } from 'react-native';
+import { Button } from 'react-native-paper';
 import {
-  areAllFieldsValidated, isAmexCard,
-  isValidCardNumber,
+  areAllFieldsValidated, isValidCardNumber,
   isValidCvv,
   isValidExpirationDate,
   isValidName,

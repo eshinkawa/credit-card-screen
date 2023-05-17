@@ -8,7 +8,7 @@ test('Name component renders correctly', () => {
   const touchName = true;
   const setTouch = jest.fn();
 
-  const {getAllByText, getByTestId} = render(<Name labelName={labelName} name={name} setName={setName} touchName={touchName} setTouch={setTouch} />);
+  const { getByTestId} = render(<Name labelName={labelName} name={name} setName={setName} touchName={touchName} setTouch={setTouch} />);
 
   const inputElement = getByTestId(labelName);
   expect(inputElement).toBeTruthy();

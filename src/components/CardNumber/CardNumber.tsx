@@ -1,6 +1,5 @@
-import React, { useState, FC } from 'react';
-import { View, TextInputProps } from 'react-native';
-import { TextInput, Button, HelperText } from 'react-native-paper';
+import React, { FC } from 'react';
+import { TextInput, HelperText } from 'react-native-paper';
 import { isValidCardNumber } from '../../domain/utils';
 import { styles } from '../../styles/styles';
 

@@ -5,7 +5,7 @@ import { fireEvent, render } from '@testing-library/react-native';
 test('ExpirationDate component renders correctly', () => {
   const setExpirationDate = jest.fn();
   const setExpirationDateTouch = jest.fn();
-  const { getByTestId, getAllByText } = render(
+  const { getByTestId } = render(
     <ExpirationDate
       expirationDate="12/22"
       setExpirationDate={setExpirationDate}

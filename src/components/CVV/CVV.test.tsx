@@ -11,7 +11,7 @@ describe('CVV component renders correctly', () => {
 
   const props = {setCvv, setCvvTouch, cvv, cardNumber, cvvTouch}
   test('CVV component renders correctly', () => {
-    const {getByTestId, getAllByText} = render(
+    const {getByTestId} = render(
       <CVV {...props}/>
     );
 

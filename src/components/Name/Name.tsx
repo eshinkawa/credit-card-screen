@@ -12,8 +12,6 @@ type NameProps = {
 }
 
 const Name: FC<NameProps> = ({labelName, name, setName, touchName, setTouch}) => {
-  const [error, setError] = useState<boolean>(false);
-
   return <>
     <TextInput
       testID={"name"}

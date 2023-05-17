@@ -1,7 +1,6 @@
 import React from 'react';
 import CardNumber from './CardNumber';
 import { fireEvent, render } from '@testing-library/react-native';
-import { styles } from '../../styles/styles';
 
 describe('CardNumber', () => {
   const setCardNumber = jest.fn();
@@ -12,7 +11,7 @@ describe('CardNumber', () => {
   const props = { setCardNumber, setCardNumberTouch, cardNumber, cardNumberTouch};
 
   test('renders correctly', () => {
-    const {  getAllByText, getByTestId } = render(
+    const {  getByTestId } = render(
       <CardNumber {...props}/>
     );
 
@@ -36,7 +35,7 @@ describe('CardNumber', () => {
 
   test('dont show error message for Amex Card', () => {
     const newProps = { ...props, cardNumberTouch: false}
-    const {  debug, getByText, getByTestId } = render(
+    const {   getByTestId } = render(
       <CardNumber {...newProps}/>
     );
 

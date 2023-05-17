@@ -5,7 +5,7 @@ import ZipCode from './ZipCode';
 test('ZipCode component renders correctly', () => {
   const setZipCode = jest.fn();
   const setZipCodeTouch = jest.fn();
-  const { getByTestId, getByText } = render(
+  const { getByTestId } = render(
     <ZipCode zipCode="" setZipCode={setZipCode} zipCodeTouch={false} setZipCodeTouch={setZipCodeTouch} />
   );
   const input = getByTestId('zipcode');
