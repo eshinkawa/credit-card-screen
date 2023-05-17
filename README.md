@@ -1,3 +1,6 @@
+![Simulator Screen Recording - iPhone 14 Pro Max - 2023-05-17 at 04 03 59](https://github.com/eshinkawa/credit-card-screen/assets/8547776/6a10a6ea-1dc5-4734-a970-cbb5092ebc95)
+
+
 # credit-card-screen
 Ready to go React Native Credit Card Screen - Made with ❤️ and Expo
 
